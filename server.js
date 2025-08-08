@@ -7,7 +7,7 @@ const port = process.env.port;
 App.get('/',(req, res)=>{
     res.send('Welcome toPearl server!');
 });
-application.listen(port,() =>{
+app.listen(port,() =>{
     console.log(`Server running at http://${hostname}:${port}/`);
     console.log(`Press Ctrl+C to stop the server.`);
     console.log(`Press Ctrl+R to restart the server.`);
